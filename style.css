@@ -4,16 +4,20 @@ body {
 	background-repeat: no-repeat; */
 }
 
-h1 {
-	font-family: Montserrant-black;
-	font-size: 3rem;
-	line-height: 1.5;
-
-}
-
 #landingPage {
 	color: #fff;
 	background-color: #021B50;
+}
+
+/* navigation page */
+.nav-bar {
+	padding-bottom: 5.5rem;
+}
+
+.navbar-brand {
+	font-family: Ubuntu;
+	font-size: 3rem;
+	font-weight: bold;
 }
 
 .logo {
@@ -23,17 +27,7 @@ h1 {
 
 .logo-create {
 	width: 100px;
-	height: 70pxpx;
-
-}
-
-.image {
-	width: 200px;
-	height: 400px;
-	position: relative;
-	left: 10%;
-	bottom: 10%;
-	transform: rotate(20deg);
+	height: 70px;
 }
 
 .container-fluid {
@@ -53,16 +47,38 @@ h1 {
 	margin-left: 2%;
 	position: relative;
 	left: 20%;
-	top: 40px ;
+	top: 40px;
 }
 
-/* navigation page */
-.nav-bar {
-	padding-bottom: 5.5rem;
+
+h1 {
+	font-family: Montserrant-black;
+	font-size: 3rem;
+	line-height: 1.5;
+
 }
 
-.navbar-brand {
-	font-family: Ubuntu;
-	font-size: 2.5rem;
-	font-weight: bold;
+.paragraph{
+	color: bisque;
+	font-size: 1.2rem;
+}
+
+.image {
+	width: 200px;
+	height: 400px;
+	/* position: relative;
+	left: 10%;
+	bottom: 10%; */
+	transform: rotate(20deg);
+}
+
+@media screen and (max-width: 575.98px) {
+	.image {
+		width: 200px;
+		height: 400px;
+		margin-top: 30%;
+		margin-left: 10%;
+		margin-right: 10%;
+		transform: rotate(20deg);
+	}
 }
