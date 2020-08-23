@@ -1,0 +1,68 @@
+body {
+	background-color: teal;
+	/* background-image: url(creativebackground.jpg);
+	background-repeat: no-repeat; */
+}
+
+h1 {
+	font-family: Montserrant-black;
+	font-size: 3rem;
+	line-height: 1.5;
+
+}
+
+#landingPage {
+	color: #fff;
+	background-color: #021B50;
+}
+
+.logo {
+	width: 90px;
+	height: 70px;
+}
+
+.logo-create {
+	width: 100px;
+	height: 70pxpx;
+
+}
+
+.image {
+	width: 200px;
+	height: 400px;
+	position: relative;
+	left: 10%;
+	bottom: 10%;
+	transform: rotate(20deg);
+}
+
+.container-fluid {
+	padding: 3% 15%;
+	padding-top: 0;
+	margin-top: 0;
+
+}
+
+.row {
+	padding: 8% 5% 0;
+	margin: auto;
+	padding-left: 15%;
+}
+
+.btn {
+	margin-left: 2%;
+	position: relative;
+	left: 20%;
+	top: 40px ;
+}
+
+/* navigation page */
+.nav-bar {
+	padding-bottom: 5.5rem;
+}
+
+.navbar-brand {
+	font-family: Ubuntu;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
